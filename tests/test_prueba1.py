@@ -1,5 +1,5 @@
 import pytest
-from ..src.Pruebas.prueba1 import mayor
+from src.Pruebas.prueba1 import mayor
 
 @pytest.mark.parametrize(
     "input_n1, input_n2, expected",

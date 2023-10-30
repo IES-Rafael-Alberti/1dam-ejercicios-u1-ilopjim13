@@ -1,5 +1,5 @@
 import pytest
-from ..src.Pruebas.prueba0 import suma
+from src.Pruebas.prueba0 import suma
 
 def test_suma():
     assert suma(1, 1) == 2
