@@ -16,6 +16,9 @@ def pizzeria(pizza):
         elif ingrediente == "salmón":
             return f"Su pizza elegida es la no vegetariana con {ingrediente} como ingrediente."
 
-pizza = input("Elige entre la pizza vegetariana o la no vegetariana: ")
+def main():
+    pizza = input("Elige entre la pizza vegetariana o la no vegetariana: ")
+    print(pizzeria(pizza))
 
-print(pizzeria(pizza))
+if __name__ == "__main__":
+    main()

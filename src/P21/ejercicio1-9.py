@@ -8,6 +8,9 @@ def entrada(edad):
     else:
         return "Debe pagar 10€ por la entrada."
 
-edad = int(input("Introduzca su edad: "))
+def main():
+    edad = int(input("Introduzca su edad: "))
+    print(entrada(edad))
 
-print(entrada(edad))
+if __name__ == "__main__":
+    main()

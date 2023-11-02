@@ -12,6 +12,9 @@ def impositivo(renta):
     else:
         return "Le corresponde un impositivo del 45%"
 
-renta = int(input("Introduce su renta anual: "))
+def main():
+    renta = int(input("Introduce su renta anual: "))
+    print(impositivo(renta))
 
-print(impositivo(renta))
+if __name__ == "__main__":
+    main()

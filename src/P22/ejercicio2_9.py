@@ -8,4 +8,8 @@ def contra(palabra):
 
 palabra = input("Introduce la contraseña: ")
 
-print(contra(palabra))
+def main():
+    print(contra(palabra))
+
+if __name__ == "__main__":
+    main()

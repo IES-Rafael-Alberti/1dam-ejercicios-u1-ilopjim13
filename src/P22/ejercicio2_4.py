@@ -9,4 +9,8 @@ def numeros(num):
 
 num = int(input("Introduce un numero positivo: "))
 
-numeros(num)
+def main():
+    numeros(num)
+
+if __name__ == "__main__":
+    main()

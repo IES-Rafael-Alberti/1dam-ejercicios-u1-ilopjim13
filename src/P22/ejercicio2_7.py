@@ -9,4 +9,8 @@ def tabla():
         num += 1
         print(tabla)
 
-tabla()
+def main():
+    tabla()
+
+if __name__ == "__main__":
+    main()

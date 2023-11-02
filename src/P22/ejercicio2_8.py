@@ -18,4 +18,8 @@ def triangulo(num):
 
 num = int(input("Introduce un numero: "))
 
-triangulo(num)
+def main():
+    triangulo(num)
+
+if __name__ == "__main__":
+    main()

@@ -4,8 +4,13 @@ def division(num1, num2):
         return "Error no se puede dividir entre 0"
     else:
         return num1 / num2
-    
-num1 = int(input("Introduce un número: "))
-num2 = int(input("Introduce otro número: "))
 
-print(division(num1, num2))
+def main():
+    num1 = int(input("Introduce un número: "))
+    num2 = int(input("Introduce otro número: "))
+    print(division(num1, num2))
+
+if __name__ == "__main__":
+    main()
+
+

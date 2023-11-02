@@ -7,7 +7,10 @@ def curso(nombre, sexo):
     else:
         return "Estas en el grupo B."
 
-nombre = input("Introduce tu nombre: ")
-sexo = input("Introduce tu sexo: ")
+def main():
+    nombre = input("Introduce tu nombre: ")
+    sexo = input("Introduce tu sexo: ")
+    print(curso(nombre, sexo))
 
-print(curso(nombre, sexo))
+if __name__ == "__main__":
+    main()

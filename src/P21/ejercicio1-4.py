@@ -5,7 +5,11 @@ def pares(num):
         return "El número es par."
     else:
         return "El número es impar."
-    
-num = int(input("Introduce un número: "))
 
-print(pares(num))
+def main():
+    num = int(input("Introduce un número: "))
+    print(pares(num))
+
+if __name__ == "__main__":
+    main()
+

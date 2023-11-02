@@ -9,5 +9,8 @@ def palabras(palabra):
         count += 1
         print(palabra)
 
+def main():
+    palabras()
 
-palabras()
+if __name__ == "__main__":
+    main()

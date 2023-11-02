@@ -9,4 +9,8 @@ def deletrear(palabra):
 
 palabra = input("Introduce una palabra")
 
-deletrear(palabra)
+def main():
+    deletrear(palabra)
+
+if __name__ == "__main__":
+    main()

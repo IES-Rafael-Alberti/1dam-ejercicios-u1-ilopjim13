@@ -11,6 +11,10 @@ def puntuacion(puntos):
     else:
         return "Puntuación errónea"
 
-puntos = float(input("Introduce la puntuación del empleado: "))
+def main():
+    puntos = float(input("Introduce la puntuación del empleado: "))
+    print(puntuacion(puntos))
 
-print(puntuacion(puntos))
+if __name__ == "__main__":
+    main()
+

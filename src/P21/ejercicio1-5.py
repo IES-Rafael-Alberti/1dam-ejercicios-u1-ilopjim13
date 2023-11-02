@@ -5,7 +5,10 @@ def tributar(edad, ingreso):
     else:
         return "No puedes tributar."
 
-edad = int(input("Ingrese su edad: "))
-ingreso = int(input("Ingrese sus ingresos mensuales: "))
+def main():
+    edad = int(input("Ingrese su edad: "))
+    ingreso = int(input("Ingrese sus ingresos mensuales: "))
+    print(tributar(edad, ingreso))
 
-print(tributar(edad, ingreso))
+if __name__ == "__main__":
+    main()

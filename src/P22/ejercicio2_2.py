@@ -6,4 +6,8 @@ def edades(edad):
 
 edad= int(input("Introduce tu edad: "))
 
-edades(edad)
+def main():
+    edades(edad)
+
+if __name__ == "__main__":
+    main()

@@ -9,4 +9,8 @@ def impares(num):
 
 num = int(input("Introduce un numero positivo: "))
 
-impares(num)
+def main():
+    impares(num)
+
+if __name__ == "__main__":
+    main()
